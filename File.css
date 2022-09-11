@@ -1,0 +1,86 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+.container{
+    position: absolute;
+    left: 35%;
+    top: 15%;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+.header-img{
+    height: 200px;
+    width: 90%;
+    margin: 5%;
+    border-radius: 10px;
+}
+main{
+    width: 280px;
+    color: hsl(228, 45%, 44%);
+    margin: 5%;
+}
+h1{
+    font-size: 20px;
+    color: white;
+    margin: 5%;
+}
+.avatar-image{
+    width: 10%;
+}
+hr{
+    margin-right: 10%;
+    color: hsl(215, 32%, 27%);
+}
+.date{
+    position: absolute;
+    right: 7%;
+    bottom: 13%;
+}
+.icon-ethereum{
+    width: 4%;
+}
+.icon-clock{
+    width: 6%;
+    position: absolute;
+    right: 34%;
+    bottom: 16%;
+}
+.days{
+    position: absolute;
+    right: 8%;
+    bottom: 16%;
+}
+footer{
+    margin: 5%;
+}
+.avatar-span{
+    position: absolute;
+    left: 20%;
+    bottom: 5%;
+    color: hsl(228, 45%, 44%);
+}
+.avatar-span-other-half{
+    color: white;
+}
+.attribution{
+    color: white;
+    position: absolute;
+    left: 28%;
+    bottom: 10%;
+}
+@media (max-width:375px){
+    .container{
+        position: absolute;
+        left: 12%;
+        top: 15%;
+        background-color: hsl(216, 50%, 16%);
+        border-radius: 10px;
+    }
+    .attribution{
+        color: white;
+        position: absolute;
+        left: 0%;
+        bottom: 10%;
+        text-align: center;
+    }
+}
